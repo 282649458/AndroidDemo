@@ -41,7 +41,7 @@ dependencies {
     kapt("androidx.room:room-runtime:2.6.1")
     implementation("androidx.room:room-ktx:2.6.1")
     kapt("androidx.room:room-compiler:2.6.1")
-
+    implementation("androidx.lifecycle:lifecycle-viewmodel:2.8.2")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
